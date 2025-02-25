@@ -1,0 +1,11 @@
+[package]
+name = "serial_to_websocket"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.20"  # o la versión más reciente
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = "0.15"
+tokio-serial = "5.0"
+futures-util = "0.3"
